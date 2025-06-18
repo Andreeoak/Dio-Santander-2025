@@ -8,13 +8,14 @@ Claro! Aqui está o conteúdo completo do `README.md` pronto para copiar e colar
 Este é um projeto simples em Java que solicita dois números ao usuário e imprime a contagem entre eles. Caso o segundo número seja menor que o primeiro, uma exceção personalizada é lançada.
 
 ## 📁 Estrutura do Projeto
-
-```
-
 src/
 ├── Contador.java
 └── exceptions/
 └── ParametrosInvalidosException.java
+
+```
+
+
 
 ````
 
