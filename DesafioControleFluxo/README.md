@@ -1,18 +1,66 @@
-## Getting Started
+Claro! Aqui está o conteúdo completo do `README.md` pronto para copiar e colar:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+```markdown
+# Contador Java
 
-The workspace contains two folders by default, where:
+Este é um projeto simples em Java que solicita dois números ao usuário e imprime a contagem entre eles. Caso o segundo número seja menor que o primeiro, uma exceção personalizada é lançada.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 Estrutura do Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+src/
+├── Contador.java
+└── exceptions/
+└── ParametrosInvalidosException.java
 
-## Dependency Management
+````
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repo.git
+cd nome-do-repo/src
+````
+
+2. Compile os arquivos:
+
+```bash
+javac exceptions/ParametrosInvalidosException.java Contador.java
+```
+
+3. Execute o programa:
+
+```bash
+java Contador
+```
+
+## 💡 Exemplo de uso
+
+```
+Digite o primeiro parâmetro
+3
+Digite o segundo parâmetro
+6
+Imprimindo o número 1
+Imprimindo o número 2
+Imprimindo o número 3
+```
+
+Se o primeiro número for maior que o segundo:
+
+```
+Erro: O segundo parâmetro deve ser maior que o primeiro.
+```
+
+## 📚 Conceitos aplicados
+
+* Estrutura de pacotes em Java
+* Scanner (`java.util.Scanner`)
+* Exceções personalizadas
+* Boas práticas com controle de fluxo
+
